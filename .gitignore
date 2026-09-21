@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Secrets — NEVER commit these
+.env
+.env.local
+
+# Generated data (Thursday)
+server/data/
+
+# Build output
+dist/
+build/
+
+# Editor and OS files
+.DS_Store
+.vscode/
+*.log

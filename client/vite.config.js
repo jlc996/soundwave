@@ -25,11 +25,11 @@ export default defineConfig({
     // backend. Day 5 makes this very clear.
     // ------------------------------------------------------------
 
-    // proxy: {
-    //   '/api': {
-    //     target: 'http://localhost:5000',
-    //     changeOrigin: true,
-    //   },
-    // },
+    proxy: {
+      '/api': {
+        target: 'http://localhost:5000',
+        changeOrigin: true,
+      },
+    },
   },
 });
